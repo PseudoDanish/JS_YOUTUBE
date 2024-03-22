@@ -1,9 +1,9 @@
-let score = "hitesh"
+// let score = "hitesh"
 
 //console.log(typeof score);
 //console.log(typeof(score));
 
-let valueInNumber = Number(score)
+// let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
 
@@ -12,17 +12,43 @@ let valueInNumber = Number(score)
 // "33abc" => NaN
 //  true => 1; false => 0
 
-let isLoggedIn = "hitesh"
+// let isLoggedIn = "hitesh"
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
 //  console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
 // "hitesh" => true
 
-let someNumber = 33
+// let someNumber = 33
 
-let stringNumber = String(someNumber)
+// let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
+
+/* =================OPERATIONS==================*/
+
+// let value = 3;
+// let negValue = -value;
+// console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2/3)
+// console.log(2%3)
+
+
+let str1="hello"
+let str2=" dragzy"
+
+let str3=str1+str2
+console.log(str3)
+
+console.log("1"+2+2)//First string then whooe string
+
+console.log(2+3+"4")//First num then if string then all string
+
+console.log(+true)
