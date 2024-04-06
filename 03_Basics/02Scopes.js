@@ -10,7 +10,7 @@ if(true){
     let a=10
     const b=20
     // var c=30
-    console.log("Inner:"+a);
+    // console.log("Inner:"+a);
 }
 
 
@@ -18,4 +18,48 @@ if(true){
 // console.log(b); //GGiver Error and it is correct (Block Scope)
 // console.log(c); //Output 30 Which is NOT CORRECT
 
-console.log(a);
+// console.log(a);
+
+
+// ====Nested SCOPes====
+
+function one()
+{
+    const uname="danish"
+
+    function two(){
+        const webName="Github"
+        console.log(uname);
+    }
+    // console.log(webName);// Error as it is a block scope variable
+
+    two()
+}
+// one() //Exceutes and giver danish as o/p
+
+if(true)
+{
+    const uName="muski";
+
+    if(uName==="muski")
+    {
+        const character=" Pagaal";
+        // console.log(uName + character);
+    }
+    // console.log(character); //Error
+}
+// console.log(uName);//Error
+
+
+//=================INTERESTING================
+console.log(addOne(2)) //No error
+function addOne(num)
+{
+    return num+1
+}
+
+addTwo(6) //Error
+const addTwo=function(num)
+{
+    return num+2
+}
