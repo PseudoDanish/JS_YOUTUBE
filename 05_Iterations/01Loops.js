@@ -4,9 +4,9 @@ for (let index = 0; index < 7; index++) {
     const element = index;
     if(element==5)
     {
-        console.log("5 IS The Best Num");
+        // console.log("5 IS The Best Num");
     }
-    console.log(element);
+    // console.log(element);
 }
 
 
@@ -16,7 +16,7 @@ const myArray=["Hello","Hii","Heyy"]
 
 for (let index = 0; index < myArray.length; index++) {
     const element = myArray[index];
-    console.log(element);    
+    // console.log(element);    
 }
 
 //Break and Continues
@@ -24,10 +24,10 @@ for (let index = 0; index < myArray.length; index++) {
 for (let index = 0; index <=25; index++) {
     if(index==5)
     {
-        console.log(`Detected ${index}`);
+        // console.log(`Detected ${index}`);
         break
     }
-    console.log(`Value Of I is : ${index}`);
+    // console.log(`Value Of I is : ${index}`);
 
 }
 for (let index = 0; index <=25; index++) {
